@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Inconsolata:wght@200&display=swap');
+
+
+
+     .debit-card{
+         height: 200px;
+         width: 300px;
+         background-color: #21D4FD;
+         background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+         border-radius: 25px;
+       }
+
+      .img-chip{
+           height: 40px;
+          margin: 10px;
+      }
+      .img-bank{
+           width: 40px;
+           margin: 10px;
+      }
+      .container-chip{
+           display: flex;
+           justify-content: space-between;
+      }
+      .container-number{
+           display: flex;
+           justify-content: space-evenly;
+      }
+      .num{
+           font-size: 25px;
+            font-family: 'Inconsolata', monospace;
+            font-weight: bold;
+      }
+      .container-details{
+           display: flex;
+           justify-content: space-around;
+      }
+      .info-title{
+           font-size: 15px;
+           font-style: italic;
+      }
+      .card-info{
+          font-size: 20px;
+            font-family: 'Inconsolata', monospace;
+            font-weight: bold;
+      }
+
+
+   </style>
+</head>
+<body>
+<div class="debit-card">
+   <div class="debit-card content"> 
+     <div class="front">
+    <div class="container-chip">
+         <img src="chip.png" class="img-chip"/>
+         <img src="VISA-symbol.jpg" class="img-bank"/>
+    </div>
+
+    <div class="container-number">
+         <span class="num">3456</span>
+          <span class="num">4323</span>
+          <span class="num">7890</span>
+          <span class="num">1234</span>
+
+    </div>
+    <div class="container-details">
+         <span>
+          <p class="info-title">Card Holder Name</p>
+          <p class="card-info">Saniya Talmale</p>
+         </span>
+         <span>
+             <p class="info-title">Validity</p>
+             <p class="card-info">04/2023</p>
+         </span>
+    </div>
+     </div>
+     <div class="back">
+
+     </div>
+</div>
+
+</div>
+</body>
+</html>
